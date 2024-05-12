@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         {children}
+        <footer>Paranatural Ltd</footer>
       </body>
     </html>
   );
