@@ -1,6 +1,6 @@
 export default function Home () {
   return <div>
-  <h1>Paranatural Posts Board</h1>
+  <h1>Paranatural Catagories</h1>
   <h3>Aliens</h3>
   <p>A message board discussing all things about Aliens from Abuctions to UFO's.</p>
   <h3>Supernatural</h3>
