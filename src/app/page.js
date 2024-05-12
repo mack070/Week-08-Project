@@ -1,5 +1,8 @@
 import { sql } from "@vercel/postgres";
 import Image from "next/image";
+import Link from "next/link";
+import Button from "../components/Button";
+import Paranatural from "@/../public/Paranatural.jpg";
 export default async function Home () {
 const posts = await sql`SELECT * FROM posts`;
 
@@ -16,5 +19,5 @@ const posts = await sql`SELECT * FROM posts`;
       );
     })}
   </div>
-  ); 
+);
 }
