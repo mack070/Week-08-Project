@@ -7,16 +7,17 @@ export default function posts({ children }) {
           <header>
             <h1>Paranatural Board</h1>
             <nav>
-              <Link href="/">Home</Link>
-              <Link href="/posts">Posts</Link>
+              <Link href="../">Home</Link>
+              <Link href="../posts">Posts</Link>
+              <Link href="../posts/Aliens">Aliens</Link>
+              <Link href="../posts/Cryptids">Cryptids</Link>
+              <Link href="../posts/Supernatural">Supernatural</Link>
             </nav>
           </header>
           <main className="flex">
         <div>
           <img src="../Paranatural.jpg" alt="Paranatural" />
         </div>
-        <article className="flex">
-        </article>
       </main>
           {children}
         </body>
