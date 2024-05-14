@@ -1,4 +1,4 @@
-{
+export default function Supernatural() {
     return (
       <div>
         <main className="flex">
